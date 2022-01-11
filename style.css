@@ -1,3 +1,12 @@
+:root {
+    --main-colour: rgb(85, 85, 172);
+}
+
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -87,6 +96,20 @@ ul {
     opacity: 0.6;
 }
 
+.home-button {
+    line-height: 6;
+}
+
+
+.home-invite {
+    background: var(--main-colour);
+    border-radius: 12px;
+    font-size: 20px;
+    color: #E5E7EB;
+    cursor: pointer;
+    padding: 15px 30px;
+}
+
 /* Commands */
 
 .main-content-commands {
@@ -99,4 +122,16 @@ ul {
 .commands-title {
     font-size: 3rem;
     line-height: 1;
+}
+
+.commands-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.div-command {
+    margin: 0 0 30px 0;
 }
