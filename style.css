@@ -1,7 +1,8 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: rgb(85, 85, 172);
+    /* background-color: rgb(85, 85, 172); */
+    background: linear-gradient(to right, rgb(43, 43, 151), rgb(85, 85, 172));
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #E5E7EB;
 }
@@ -61,4 +62,27 @@ ul {
     display: flex;
 }
 
-/* Commands page CSS */
+.maincontent-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+}
+
+.home-title {
+    font-size: 5rem;
+    line-height: 1;
+}
+
+.maincontent-home-title {
+    padding: 0;
+    margin: 0;
+}
+
+.home-subtext {
+    padding: 0;
+    margin: 0;
+    font-size: 1.5rem;
+    opacity: 0.6;
+}
