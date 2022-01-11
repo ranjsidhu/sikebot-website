@@ -75,7 +75,7 @@ ul {
     line-height: 1;
 }
 
-.maincontent-home-title {
+.maincontent-home-title, .main-content-commands-title {
     padding: 0;
     margin: 0;
 }
@@ -85,4 +85,18 @@ ul {
     margin: 0;
     font-size: 1.5rem;
     opacity: 0.6;
+}
+
+/* Commands */
+
+.main-content-commands {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.commands-title {
+    font-size: 3rem;
+    line-height: 1;
 }
