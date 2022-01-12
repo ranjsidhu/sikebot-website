@@ -2,10 +2,6 @@
     --main-colour: rgb(85, 85, 172);
 }
 
-*::before,
-*::after {
-    box-sizing: border-box;
-}
 
 body {
     padding: 0;
@@ -84,7 +80,7 @@ ul {
     line-height: 1;
 }
 
-.maincontent-home-title, .main-content-commands-title {
+.maincontent-home-title, .main-content-commands-title, .main-content-info-title {
     padding: 0;
     margin: 0;
 }
@@ -112,14 +108,14 @@ ul {
 
 /* Commands */
 
-.main-content-commands {
+.main-content-commands, .main-content-info {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.commands-title {
+.commands-title, .info-title {
     font-size: 3rem;
     line-height: 1;
 }
@@ -127,11 +123,21 @@ ul {
 .commands-list {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     padding-top: 50px;
+    text-align: left;
+    margin-left: 60px;
 }
 
 .div-command {
     margin: 0 0 30px 0;
+    line-height: 1;
+}
+
+.extra-space {
+    height: 10000px;
+}
+
+.bunch-of-shit {
+    text-align: center;
+    margin: 70px 50px;
 }
