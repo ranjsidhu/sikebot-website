@@ -1,5 +1,6 @@
 :root {
     --main-colour: rgb(85, 85, 172);
+    --original-color: rgb(43, 43, 151);
 }
 
 
@@ -7,7 +8,7 @@ body {
     padding: 0;
     margin: 0;
     /* background-color: rgb(85, 85, 172); */
-    background: linear-gradient(to right, rgb(43, 43, 151), rgb(85, 85, 172));
+    background: linear-gradient(to left, rgb(29, 29, 114), rgb(85, 85, 172));
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #E5E7EB;
 }
@@ -80,7 +81,7 @@ ul {
     line-height: 1;
 }
 
-.maincontent-home-title, .main-content-commands-title, .main-content-info-title {
+.maincontent-home-title, .main-content-commands-title, .main-content-info-title, .main-content-support-title {
     padding: 0;
     margin: 0;
 }
@@ -108,14 +109,14 @@ ul {
 
 /* Commands */
 
-.main-content-commands, .main-content-info {
+.main-content-commands, .main-content-info, .main-content-support {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.commands-title, .info-title {
+.commands-title, .info-title, .support-title {
     font-size: 3rem;
     line-height: 1;
 }
@@ -137,7 +138,28 @@ ul {
     height: 10000px;
 }
 
-.bunch-of-shit {
+.bunch-of-shit, .support-description {
     text-align: center;
     margin: 70px 50px;
+}
+
+.support-subtext {
+    margin-top: 30px;
+}
+
+.support-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.discord-logo {
+    height: 50px;
+    width: auto;
+}
+
+.discord-link-logo {
+    display: flex;
 }
