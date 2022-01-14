@@ -1,2 +1,2 @@
 # sikebot-website
-A website for a Discord bot
+A template website for a Discord bot created by a friend
